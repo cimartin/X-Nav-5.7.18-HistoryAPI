@@ -2,7 +2,7 @@
 function swapPhoto(href) {
   var req = new XMLHttpRequest();
   req.open("GET",
-  "https://aubedac.github.io/X-Nav-5.7.18-HistoryAPI/gallery/" +
+  "https://cimartin.github.io/X-Nav-5.7.18-HistoryAPI/gallery/" +
              href.split("/").pop(),
            false);
   req.send(null);
